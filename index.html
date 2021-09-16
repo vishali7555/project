@@ -160,7 +160,7 @@
                 You can probably find some way to order the children of a node. If the ordering scheme is simple enough, you should use it; but if it is too cumbersome, you are better off keeping a list of untried children.
                 
                 </p>
-
+                <br>
                 <p><b>Example: TreeSearch</b></p>
                 <p>
                   For starters, let's do the simplest possible example of backtracking, which is searching an actual tree. We will also use the simplest kind of tree, a binary tree.
@@ -441,7 +441,7 @@
                             }</pre>
                             <p> In industry, actual programs often have multiple flags to control different aspects   of debugging. Don't worry too much about making your code larger; modern compilers 
                              will notice that since the variable <code>debugging</code> is <code>final</code>, 
-                            it can never be <code>true</code>, and the controlled code will be discarded.</p>
+                            it can never be <code>true</code>, and the controlled code will be discarded.</p> <br>
                              <p><b>Trick #4: Create an Exception. </b>If an Exception is thrown, you can get information about just where it happened by sending it the message<code> printStackTrace(PrintStream)</code>. Since an Exception is an object like any other, you can create and <code>throw</code>  your own Exceptions. However, Java programmers don't always realize that you can create an Exception <i>without</i> throwing it. For example, the following  code</p>
                               <pre>new Exception("Checkpoint Charlie").printStackTrace(System.out);</pre>
                               <p>will print out a message something like this, and the program will then continue 
