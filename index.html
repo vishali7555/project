@@ -239,7 +239,7 @@
                    }</pre>
 
                    <p>I think the first version is simpler, but the second version is slightly more 
-                    efficient. </p>
+                    efficient. </p> <br>
                     <b>What are the children?</b> 
                     <p>One of the things that simplifies the above binary tree search is that, at each choice point, you can ignore all the previous choices. Previous choices 
                     don't give you any information about what you should do next; 
@@ -327,12 +327,13 @@
                     <p>The zeros in the above table indicate times too short to measure (less than 
                       1 millisecond). Why this huge difference? Either of these methods <i>could</i> have exponential growth. Eliminating a node automatically eliminates all of its descendents, and this will often prevent exponential growth. Conversely, by waiting to check until a leaf node is reached, exponential growth is practically 
                       guaranteed. <i> <b>If there is any way to eliminate children (reduce the set of choices), do so!</b></i></p>
+                      <br>
                     <b>Debugging techniques</b>
                     <p> Often our first try at a program doesn't work, and we need to debug it. Debuggers 
                       are helpful, but sometimes we need to fall back on inserting print statements. 
                       There are some simple tricks to making effective use of print statements. These 
                       tricks can be applied to any program, but are especially useful when you are 
-                      trying to debug recursive routines.</p>
+                      trying to debug recursive routines.</p> <br>
                     <p><b>Trick #1: Indent when you print method entries and exits. </b>Often, the 
                       best debugging technique is to print every method call and return (or at least 
                       the most important ones). You probably want to print, for each method, what 
